@@ -16,19 +16,16 @@ body {
     margin-bottom: 20px;
     padding: 2.5px 0;
     height: 75px;
-    
-    
+    margin: auto;
+    width: 100%;
 }
 
-header,
-nav {
-    display: inline-block;
-}
 
 header {
     align-content: center;
     height: 75px;
     width: 960px;
+    margin: auto;
 }
 
 #myName {
@@ -39,7 +36,6 @@ header {
     border: 1px solid black;
     padding-right: 20px;
     padding-left: 20px;
-    margin: 0 0 0 12.5%;
 }
 
 #navbar {
@@ -50,7 +46,7 @@ header {
 nav {
     float: right;
     padding-top: 25px;
-    margin-right: 12%;
+  
 }
 nav p {
     display: inline;
@@ -188,10 +184,38 @@ footer {
     bottom:0;
 }
 
+@media screen and (min-width: 981px) and (max-width: 1075px) {
+    main {
+        width: 800px;
+        margin:0 auto;
+    }
+
+    header {
+        width: 800px;
+        
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+    #myName {
+       
+    }
+    .navOption {
+        font-size: 1em;
+    }
+    a:hover {
+        font-size: 1em;
+    }
+}
+
 @media screen and (max-width: 980px) {
     main {
         width: 700px;
         margin:0 auto;
+    }
+    header {
+        width: 700px;
     }
     h1 {
         font-size: 1.5em;
@@ -205,14 +229,17 @@ footer {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    header {
+        width:600px;
+    }
+    
     main {
         width: 600px;
         margin:0 auto;
     }
     img {
         width: 175px;
-
     }
 }
 
@@ -220,6 +247,9 @@ footer {
     main {
         width: 500px;
         margin:0 auto;
+    }
+    header {
+        width: 500px;
     }
     #header_Content {
         margin-left: auto;
