@@ -10,19 +10,25 @@ body {
     font-family: Moon;
 }
 
-header {
+#header_Content {
     border-bottom: solid 5px grey;
     background: lightgray;
     margin-bottom: 20px;
     padding: 2.5px 0;
     height: 75px;
+    
+
 }
 
-#header_content {
+header,
+nav {
+    display: inline-block;
+}
+
+header {
     align-content: center;
-    margin: 0 12.5% 0 12.5%;
     height: 75px;
-    width: 960px;
+    width: 100%;
 }
 
 #myName {
@@ -34,7 +40,6 @@ header {
     padding-right: 20px;
     padding-left: 20px;
     margin: 0 0 0 12.5%;
-
 }
 
 #navbar {
@@ -188,19 +193,15 @@ footer {
         width: 700px;
         margin:0 auto;
     }
-    nav {
-        font-size: 16px;
-        margin: 0 8% 0 0;
+    h1 {
+        font-size: 1.5em;
     }
-    header {
-        width: 100%;
+    .navOption {
+        font-size: 1em;
     }
-    #header_Content {
-    
+    a:hover {
+        font-size: 1em;
     }
-   #myName {
-       margin: 0 auto 0 auto;
-   }
 }
 
 
@@ -209,21 +210,9 @@ footer {
         width: 600px;
         margin:0 auto;
     }
-    nav {
-        font-size: 14px;
-        margin: 0 8% 0 0;
-    }
-    header {
-        width: 100%;
-    }
-    #header_Content {
-        width: 600px;
-    }
-    #myName {
-        margin: 0 0 0 6%;
-    }
-    nav {
-        margin-right: 6%;
+    img {
+        width: 175px;
+
     }
 }
 
@@ -232,21 +221,20 @@ footer {
         width: 500px;
         margin:0 auto;
     }
-    nav {
-        font-size: 12px;
-        margin: 0 8% 0 0;
-    }
-    header {
-        width: 100%;
-    }
     #header_Content {
-        width: 500px;
-        margin: 0 auto;
+        margin-left: auto;
     }
-    #myName {
-        margin: 0 0 0 4%;
+    h1 {
+        font-size: 1.25em;
     }
-    nav {
-        margin-right: 4%;
+    .navOption {
+        font-size: 0.75em;
+    }
+    a:hover {
+        font-size: 0.75em;
+    }
+    img {
+        width: 175px;
+
     }
 }
