@@ -17,7 +17,7 @@ body {
     padding: 2.5px 0;
     height: 75px;
     
-
+    
 }
 
 header,
@@ -28,7 +28,7 @@ nav {
 header {
     align-content: center;
     height: 75px;
-    width: 100%;
+    width: 960px;
 }
 
 #myName {
